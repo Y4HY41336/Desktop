@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "sass": "^1.70.0"
+  },
+  "name": "headers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "about:sass:watch": "sass about/about.scss about/about.css --watch",
+    "blog:sass:watch": "sass blog/blog.scss blog/blog.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        button{
+            background-color: greenyellow;
+            border: none;
+        }
+        button:hover{
+            background-color: green;
+        }
+        button:disabled{
+            background-color: lightgreen;
+            pointer-events: none;
+        }
+        button:active{
+            background-color: darkgreen;            
+        }
+    </style>
+</head>
+
+<body>
+    <button type="button">greenyellow</button>
+    <button type="button">green</button>
+    <button type="button" disabled>lightgreen</button>
+    <button type="button">darkgreen</button>
+</body>
+
+</html>

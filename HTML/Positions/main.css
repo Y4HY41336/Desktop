@@ -1,0 +1,31 @@
+div{
+    width: 150px;
+    position: relative;
+    top: 60px;
+
+}
+.sebet{
+    color: black;
+    position: relative;
+    font-size: 100px;
+}
+.number{
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    position: absolute;
+    top: -30px;
+    left: 120px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.words{
+    font-size: 20px;
+    position: absolute;
+    top: 120px;
+    left: 15px;
+}
+
